@@ -22,7 +22,7 @@ Para acceder al portal de administradores de SnapMsg se debe dar acceso a travé
 ## Login
 El acceso a la platforma iniciará con la siguiente vista donde se deberá introducir los datos.
 
-<img src="./images/login.png" width="450">
+<img src="images/login.png" width="450">
 
 ## Layout
 
@@ -35,15 +35,15 @@ La plataforma de administrador provee una layout compuesta por 3 elementos impor
 ### Navbar
 En la parte superior se podra visualizar con la navbar, en la cual se permitirá desplegar la sidebar con todas las acciones posibles del administrador y también podra visualizar acceder a su cuenta y desloguearse de la herramienta.
 
-<img src="./images/navbar.png" width="450">
+<img src="images/navbar.png" width="450">
 
 ### Sidebar
 
 Desde la sidebar se podrán acceder a todas las acciones que pueden realizar los administradores
 
-<img src="./images/sidebar-closed.png" width="130">
+<img src="images/sidebar-closed.png" width="130">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./images/sidebar-open.png" width="200">
+<img src="images/sidebar-open.png" width="200">
 
 
 
