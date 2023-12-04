@@ -15,6 +15,7 @@ permalink: /backoffice
     - [Navbar](#navbar)
     - [Sidebar](#sidebar)
   - [Dashboards](#dashboards)
+  - [Perfil](#perfil)
 
 ## General <a name="general"></a>
 Para acceder al portal de administradores de SnapMsg se debe dar acceso a través del meta administrador. Este le indicará a su dirección de email el acceso a la [plataforma](https://7552-snapmsg-backoffice.vercel.app/l)
@@ -49,4 +50,17 @@ Desde la sidebar se podrán acceder a todas las acciones que pueden realizar los
 
 ## Dashboards
 
-Una vez ingresada a la plataforma se podrán acceder a los dashboards de usuarios y contenido (snaps)
+Una vez ingresada a la plataforma se podrán acceder a los dashboards de usuarios y contenidos (snaps), accediendo a cada uno a través de las tabs.
+
+<img src="./docs/assets/images/users_dashboard.png" width="450">
+
+<img src="./docs/assets/images/content_dashboard.png" width="450">
+
+Ambos dasboards tienen sus controles internos para filtrar por fecha o para cambiar alguna configuracion
+
+## Perfil
+
+La plataforma permite modificar los datos del administrador, al interactuar con el boton edit, el formulario permitira la modificación para aquellos campos que admitan modificación.
+
+<img src="./docs/assets/images/perfil.png" width="450">
+
