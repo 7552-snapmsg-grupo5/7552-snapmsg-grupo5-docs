@@ -1,4 +1,5 @@
 # 7552-snapmsg-grupo5-docs
-Docs
 
-[Backoffice](/backoffice)
+## Documentation for the services
+
+[Backoffice](/7552-snapmsg-grupo5-docs/backoffice)
