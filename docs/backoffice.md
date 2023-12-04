@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Backoffice Manual
-permalink: /backoffice
+permalink: /backoffice/
 ---
 
 ![](images/login.png)
