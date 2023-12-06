@@ -22,6 +22,11 @@ permalink: /backoffice
   - [Perfil del Usuario](#perfil-del-usuario)
   - [Verificación de cuenta](#verificación-de-cuenta)
   - [Verificación de cuenta detalle](#verificación-de-cuenta-detalle)
+  - [Snaps](#snaps)
+  - [Detalle Snap](#detalle-snap)
+  - [Servicios](#servicios)
+  - [Servicio Detalle](#servicio-detalle)
+  - [Alta Administradores](#alta-administradores)
 
 ## General <a name="general"></a>
 Para acceder al portal de administradores de SnapMsg se debe dar acceso a través del meta administrador. Este le indicará a su dirección de email el acceso a la [plataforma](https://7552-snapmsg-backoffice.vercel.app/l)
@@ -123,3 +128,55 @@ Finalmente el administrador tendrá la potestad de aprobar o rechazar la solicit
 <img src="./docs/assets/images/verification_prompt.png" width="450">
 
 <img src="./docs/assets/images/verification_success.png" width="450">
+
+## Snaps
+
+El elemento central de la plataforma son los Snaps, por esto desde el sistema de administradores, podrán visualizarse todos los snaps que fueron creados por los usuarios de SnapMsg. Estos como los usuarios podrán ser pre visualizados en formato de tabla, donde también se podrá ir al detalle del Snap, o inclusive bloquearlo si no cumple con el código de conducta o desbloquearlo.
+
+<img src="./docs/assets/images/snaps_grid.png" width="450">
+
+Así mismo como en el caso de los usuarios, se pedirá confirmación para bloquear y desbloquear y se indicará con una notificación y actualizacón de la data en tiempo real el exito o rechazo de la acción
+
+<img src="./docs/assets/images/block_snap.png" width="450">
+
+<img src="./docs/assets/images/snap_block_confirmation.png" width="450">
+
+## Detalle Snap
+
+Desde la vista de detalle del Snap seleccionado desde la vista anterior, se podrá acceder a todos los datos de ese Snap especifico, como la metadata propia del snap y los resultados de las interacciones que tuvo con los demas usuarios.
+
+<img src="./docs/assets/images/snap_detail.png" width="450">
+
+## Servicios
+
+Como administrador es importante velar por la salud de los servicios que son consumidos por la aplicación mobile, por esto hay una sección dedicada a estos, donde se podrán ver todos los servicios que dispone SnapMsg en formato de tabla. Desde aquí se podrá ir al detalle del servicio, para poder realizar chequeos de salud del mismo así también como ver información de ese servicio en particular y también se podrá acceder a la documentación de la api del mismo (si es que esta disponible).
+
+<img src="./docs/assets/images/services_grid.png" width="450">
+
+En la tabla se dará como resúmen el estado del servicio y cuando fue que se reviso por última vez.
+
+## Servicio Detalle
+
+Desde el detalle del servicio, será posible visualizar la información asociada al servicio y se podrán ejecutar pruebas para validar su estado de salud, haciendo click en el boton de run check.
+
+<img src="./docs/assets/images/service_detail.png" width="450">
+
+Al hacer click en el botón se ejecutará una prueba en tiempo real, validando el estado del servicio. si El mismo se encuentra caído indicará con un DOWN y si esta activo con OK. También se actualizará cuando se reviso por última vez. Recomendamos realizar estos chequeos de manera cotidiana.
+
+<img src="./docs/assets/images/service_check.png" width="450">
+
+La tabla también permanecerá actualizada con los resultados de la última prueba corrida.
+
+<img src="./docs/assets/images/serice_check_after.png" width="450">
+
+## Alta Administradores
+
+Desde la plataforma, se podrá dar de alta nuevos administradores a través del formulario de alta, ahi se deberá ingresar los datos del admin para que este sea dado de alta en el sistema. Este no requiere verificación.
+
+<img src="./docs/assets/images/new_admin.png" width="450">
+
+Cuando se cree el nuevo usuario se recibira una confirmación para notificar que la creación fue exitosa.
+
+<img src="./docs/assets/images/new_admin_confirmation.png" width="450">
+
+Desde el boton de logout podrá salir de la plataforma.
