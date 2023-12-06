@@ -12,6 +12,8 @@ permalink: /mobile
   - [General](#general)
   - [Instalación](#instalación)
   - [Landing](#landing)
+  - [Login](#login)
+    - [Contraseña](#contraseña)
 
 
 ## General
@@ -25,4 +27,17 @@ Para instalar el apk primero se debe descargar el .apk desde la (fuente)[https:/
 Una vez descargado, hay que instalarlo via USB, seguir el siguiente (tutorial)[https://es.wikihow.com/instalar-archivos-APK-de-una-PC-en-Android], una vez instalado se puede inicializar desde el icono.
 
 ## Landing
+
+Cuando se levanta la aplicación lo primero que se visualiza es la vista de Landing donde se muestran las opciones para crear cuenta, loguear en la aplicación (por email, federada y biometrico) y la recuperación de contraseña.
+
+<img src="./docs/assets/images/mobile/landing.png" width="450">
+
+## Login
+
+EN esta vista se hace login bla bla
+
+<img src="./docs/assets/images/mobile/landing.png" width="450">
+
+
+### Contraseña
 
