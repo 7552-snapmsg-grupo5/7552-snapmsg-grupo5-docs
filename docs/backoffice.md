@@ -16,6 +16,12 @@ permalink: /backoffice
     - [Sidebar](#sidebar)
   - [Dashboards](#dashboards)
   - [Perfil](#perfil)
+  - [Usuarios](#usuarios)
+    - [Bloquear usuario](#bloquear-usuario)
+    - [Visualizar Usuario](#visualizar-usuario)
+  - [Perfil del Usuario](#perfil-del-usuario)
+  - [Verificación de cuenta](#verificación-de-cuenta)
+  - [Verificación de cuenta detalle](#verificación-de-cuenta-detalle)
 
 ## General <a name="general"></a>
 Para acceder al portal de administradores de SnapMsg se debe dar acceso a través del meta administrador. Este le indicará a su dirección de email el acceso a la [plataforma](https://7552-snapmsg-backoffice.vercel.app/l)
@@ -64,3 +70,56 @@ La plataforma permite modificar los datos del administrador, al interactuar con 
 
 <img src="./docs/assets/images/perfil.png" width="450">
 
+
+## Usuarios
+
+Se podran visualizar todos los usuarios creados en snapmsg, estos seran visibles desde una tabla donde se muestran algunas características de los usuarios junto con la posibilidad de visualizar su perfil en detalle y la opción de bloquear y desbloquearlo de usar la aplicación.
+
+<img src="./docs/assets/images/users_grid.png" width="450">
+
+### Bloquear usuario
+
+Se podrá bloquear y desbloquear usuario si se hace click al icon de bloqueo, este estara indicado con color verde si el usuario puede usar la aplicación y estara marcado en rojo si el usuario se encuentra bloqueado
+
+Cuando se interactúe con este botón, se pedirá confirmación por parte del administrador si desea ejecutar la acción deseada.
+
+<img src="./docs/assets/images/users_block_prompt.png" width="450">
+
+Una vez que la acción haya sido aprobada, habrá una notificación confirmando o rechazando la acción, así también como la actualización del color del botón y de la medalla.
+
+<img src="./docs/assets/images/users_block_confirmation.png" width="450">
+
+
+### Visualizar Usuario
+
+Desde el botón con el ojo, se podrá ir al detalle de visualización de perfil del usuario.
+
+## Perfil del Usuario
+
+En la vista de visualización de perfil se podrán ver todos las propiedades de ese usuario con toda los datos del mismo actualizados en su ultima interacción con snapmsg.
+
+<img src="./docs/assets/images/user_profile.png" width="450">
+
+Aca se indicará el estado del mismo en la plataforma (si se encuentra bloqueado) junto con su foto de perfil, cantidad de likes, cantidad de shares, etc.
+
+## Verificación de cuenta
+
+Los usuarios de snapmsg pueden validar su cuenta con la plataforma, para indicar al resto de los usuarios que son quienes dicen ser. Para esto hay un portal de verificación de cuentas, donde los administradores podrán ver todas las peticiones pendientes, aprobadas y rechazadas de los usuarios que hayan solicitado verificar su perfil.
+
+Desde la vista de verificación de cuenta, se mostrarán en primer lugar todas las solicitudes pendientes, pero también utilizando las tabs, se podrán visualizar las aprobadas y rechazadas.
+
+<img src="./docs/assets/images/verifications_grid.png" width="450">
+
+La única acción realizable sobre cada una de las verificaciónes (pendientes, aprobadas y rechazadas) sera ir al detalle de la misma.
+
+## Verificación de cuenta detalle
+
+A los administradores se les pedirá como condición necesaria para validar la cuenta, que revisen dos fotos que los usuarios subirán a través de la aplicación, estas fotos son del fronto del documento de identidad y una selfie para poder acreditar con la foto del documento de identidad.
+
+Ambas fotos pueden visualizarse completas si se interactúa con las cards de las previsualizaciones de las fotos.
+Finalmente el administrador tendrá la potestad de aprobar o rechazar la solicitud del usuario, en donde se le pedirá conrfirmación al hacerlo y se notificará con el éxito o rechazo de la acción.
+
+
+<img src="./docs/assets/images/verification_prompt.png" width="450">
+
+<img src="./docs/assets/images/verification_success.png" width="450">
