@@ -30,14 +30,15 @@ Una vez descargado, hay que instalarlo via USB, seguir el siguiente (tutorial)[h
 
 Cuando se levanta la aplicación lo primero que se visualiza es la vista de Landing donde se muestran las opciones para crear cuenta, loguear en la aplicación (por email, federada y biometrico) y la recuperación de contraseña.
 
-<img src="./docs/assets/images/mobile/landing.png" width="450">
+<img src="./docs/assets/images/mobile/landing.jpg" size="450">
 
 ## Login
 
 EN esta vista se hace login bla bla
 
-<img src="./docs/assets/images/mobile/landing.png" width="450">
+<img src="./docs/assets/images/mobile/landing.jpg" size="450">
 
 
 ### Contraseña
+
 
