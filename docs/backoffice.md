@@ -160,7 +160,7 @@ En la tabla se dará como resúmen el estado del servicio y cuando fue que se re
 
 Desde el detalle del servicio, será posible visualizar la información asociada al servicio y se podrán ejecutar pruebas para validar su estado de salud, haciendo click en el boton de run check.
 
-<img src="./docs/assets/images/service_detalle.png" width="450">
+<img src="./docs/assets/images/service_detail.png" width="450">
 
 Al hacer click en el botón se ejecutará una prueba en tiempo real, validando el estado del servicio. si El mismo se encuentra caído indicará con un DOWN y si esta activo con OK. También se actualizará cuando se reviso por última vez. Recomendamos realizar estos chequeos de manera cotidiana.
 
