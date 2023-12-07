@@ -30,6 +30,12 @@ permalink: /mobile
     - [Busqueda por texto o hashtag](#busqueda-por-texto-o-hashtag)
   - [Lista de mensajes](#lista-de-mensajes)
     - [Chat](#chat)
+  - [Perfil de usuario](#perfil-de-usuario)
+    - [Perfil de usuario propio](#perfil-de-usuario-propio)
+    - [Verificación de usuario](#verificacion-de-usuario)
+    - [Estadisticas de snaps](#estadisticas-de-snaps)
+    - [Edición de perfil](#edicion-de-perfil)
+    - [Perfil de usuario ajeno](#perfil-de-usuario-ajeno)
 
 
 ## General
@@ -204,3 +210,62 @@ En caso de no tener conversaciones se verá simplemente un mensaje que indica qu
 Cuando ingresamos a un chat podemos ver el nombre del usuario con el que estamos conversando, y todos los mensajes que se enviaron entre los usuarios. A la izquierda y con color lila se verán los enviados por el otro usuario, y a la derecha con color gris los enviados por nosotros mismos.
 
 <img src="./docs/assets/images/mobile/chat.png" height="450">
+
+## Perfil de usuario
+
+En la barra de navegacion podemos ir a la pestaña del perfil, donde inicialmente nos encontraremos con nuestro perfil, pero desde donde podremos acceder a distintas opciones como se verá a continuación
+
+### Perfil de usuario propio
+
+En la vista de nuestro perfil tenemos 3 secciones:
+
+1. Nuestra información personal como nombre, usuario, mail y nuestra foto de perfil. Además tendremos una insignia que nos indicará si nuestro perfil está verificado o no.
+2. Una sección de botones que nos permiten acceder a estadisticas de nuestros snaps, a la edición de nuestros datos, o cerrar nuestra sesión.
+3. La cantidad de seguidos y seguidores, que nos permite acceder a una lista de los usuarios que seguimos o nos siguen.
+4. Una vista de todos nuestros snaps publicados o reposteados. La misma se divide en dos pestañas, una que contiene todos nuestros snaps publicados y reposteados, y otra que nos muestra unicamente nuestros snaps reposteados.
+
+<img src="./docs/assets/images/mobile/user_profile.png" height="450">
+
+### Verificación de usuario
+
+Si tocamos la insignia en nuestro perfil, SnapMsg nos permite solicitar la verificación de nuestro usuario. Cuando ingresamos a esta sección se nos explica el proceso a través del cual debemos enviar fotos de nuestro documento de identificación, del frente y el dorso, y un administrador de SnapMsg nos aceptará o rechazará el pedido.
+
+Si el pedido es aceptdo podremos ver en nuestro perfil una insignia para que todos los usuarios sepan que fuimos verificados.
+
+<img src="./docs/assets/images/mobile/verify_account.png" height="450">
+
+### Estadisticas de snaps
+
+Cuandos se accede a esta sección se pueden ver estadisticas de snaps en distintos rangos de fechas, pudiendo elegir entre los ultimos 7 dias, las ultimas 2 semanas, el ultimo mes, los ultimos 3 meses, 6 meses o el ultimo año.
+
+Las estadisticas que se podrán ver son:
+
+1. La cantidad de snaps publicados
+2. La cantidad de likes dados a otros snaps
+3. La cantidad de shares recibidos a snaps
+4. La cantidad de comentarios que recibieron mis snaps
+
+<img src="./docs/assets/images/mobile/snaps_statistics.png" height="450">
+
+### Edición de perfil
+
+En esta sección podremos ver los datos que ingresamos al momento de registrarnos, y podremos modificar solo algunos de ellos. 
+
+Entre los datos que se pueden modificar se encuentran la foto de perfil, pudiendose sacar una foto o elegir de la galeria, el nombre a mostrar, el genero y la fecha de nacimiento, siempre cumpliendo que sea un usuario mayor de edad.
+
+Entre los datos que no se pueden modificar se encuentra el email de registro y el nombre de usuario.
+
+Por ultimo desde esta sección podemos tambien habilitar el ingreso a la aplicación con datos biometricos, y se le solicitará permiso al usuario del telefono.
+
+<img src="./docs/assets/images/mobile/edit_profile_1.png" height="450">
+<img src="./docs/assets/images/mobile/edit_profile_2.png" height="450">
+
+### Perfil de usuario ajeno
+
+Por ultimo, podemos acceder de distintas formas al perfil de otro usuario de la plataforma, ya sea a través de un snap que publicó, a través de las recomendaciones de cuentas o de la busqueda de usuarios.
+
+En esta sección veremos información similar a la de nuestro propio perfil pero con menos opciones, ya que no veremos información privada del usuario como su email, y no podremos acceder a las estadisticas de sus snaps.
+
+En este caso tendremos la opcion de seguir al usuario (o dejar de seguirlo si corresponde), o de iniciar un chat con el mismo, como ya se vio en la sección de lista de mensajes.
+
+<img src="./docs/assets/images/mobile/other_user_profile.png" height="450">
