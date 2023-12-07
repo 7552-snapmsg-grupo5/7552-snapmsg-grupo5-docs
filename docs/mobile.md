@@ -16,10 +16,12 @@ permalink: /mobile
     - [Email y contraseña](#email-y-contraseña)
     - [Cliente federado (Facebook)](#cliente-federado-facebook)
   - [Login](#login)
+    - [Pre login](#pre-login)
     - [Email y Contraseña](#email-y-contraseña-1)
     - [Federado (Facebook)](#federado-facebook)
     - [Login Datos biométricos](#login-datos-biométricos)
     - [Post Login](#post-login)
+  - [Recuperación de contraseña](#recuperación-de-contraseña)
 
 
 ## General
@@ -74,6 +76,10 @@ Existen 3 maneras diferentes métodos loguear con la aplicación:
   - Login federado usando Facebook
   - Login con datos biométricos: aunque este requiere cualquiera de los dos anteriores, dado que puede activarse una vez que la cuenta exista
 
+### Pre login
+
+Si la cuenta fue creada con email y contraseña y esta no fue verificada con las instrucciones enviadas por email, SnapMsg le avisará al usuario que todavía su cuenta no fue verificada y le da la posibilidad de volver a envíar las instrucciones
+
 ### Email y Contraseña
 
 Cuando se intente loguear se visualizará el formulario de login donde se pedirá email y contraseña de la cuenta previamente creada.
@@ -100,6 +106,13 @@ Aprobado el login, este puede dirigir a dos lugares diferentes dependiendo de la
 Si el usuario no completa el proceso de onboarding el mismo lo volverá a llevar al primer paso de Onboarding para completarlo
 2. Si el usuario ya hizo onboarding previo, entonces irá directamente al Feed
 
+## Recuperación de contraseña
 
+Snapmsg permite la recuperación de contraseña mediante el formulario desde la vista de login, este pedirá que el usuario ingrese su email, para que se le envién las instrucciones de reseteo de contraseña vía email.
 
+<img src="./docs/assets/images/mobile/forgot_password.jpg" height="450">
+
+Este indicará con éxito cuando las instrucciones hayan sido enviadas.
+
+<img src="./docs/assets/images/mobile/password_reset_confirmation.jpg" height="450">
 
