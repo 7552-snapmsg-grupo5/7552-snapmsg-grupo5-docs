@@ -22,6 +22,11 @@ permalink: /mobile
     - [Login Datos biométricos](#login-datos-biométricos)
     - [Post Login](#post-login)
   - [Recuperación de contraseña](#recuperación-de-contraseña)
+  - [Feed](#feed)
+    - [Favorite Snaps](#favorite-snaps)
+    - [Notifications Center](#notifications-center)
+    - [Creacion de un snap](#creacion-de-un-snap)
+    
 
 
 ## General
@@ -115,4 +120,47 @@ Snapmsg permite la recuperación de contraseña mediante el formulario desde la 
 Este indicará con éxito cuando las instrucciones hayan sido enviadas.
 
 <img src="./docs/assets/images/mobile/password_reset_confirmation.jpg" height="450">
+
+## Feed
+
+Luego de iniciar sesión, se ingresa al home de la aplicación, donde se podrá navegar dentro de la misma. En la pestaña de feed podemos ver un listado de Snaps que cumplen con al menos uno de los siguientes criterios
+
+1. Snaps publicados por mi
+2. Snaps publicados por usuarios que sigo
+3. Snaps reposteador por usuarios que sigo, o por mi
+4. Snaps que podrian interesarme de usuarios que no sigo pero con los cuales comparto intereses
+
+Desde la vista de feed se puede ademas acceder a los snaps guardados como favoritos, al centro de notificaciones o crear un nuevo snap.
+
+<img src="./docs/assets/images/mobile/feed.png" height="450">
+
+### Favorite Snaps
+
+Si un snap me interesa y tiene información que no quiero perder o lo quiero tener a mano, lo puedo agregar a favoritos con el simbolo de un marcador de libros, el cual se pondrá amarillo luego de apretarlo.
+
+De esta manera, si accedemos a los snaps favoritos podemos ver un listado con todos los snaps que agregué previamente a favoritos, y podemos sacarlo simplemente apretando nuevamente en el simbolo amarillo del mismo.
+
+<img src="./docs/assets/images/mobile/favorite_snaps.png" height="450">
+
+### Notifications Center
+
+En el centro de notificaciones podremos ver todas las notificaciones que nos llegaron a nuestra cuenta por nuevos seguidores, por mensajes de amigos, o por interacciones de otros usuarios con nuestras publicaciones, como podria ser likes, reposts, o menciones en sus propias publicaciones.
+
+Si se presiona una notificacion sucederá una de las siguientes situaciones:
+
+1. Nos llevará al perfil del usuario que nos comenzó a seguir
+2. Nos llevará al chat con el usuario que nos envión un mensaje
+3. Nos llevará al snap en el cual nos mencionaron, o al cual le dieron like/repost
+
+<img src="./docs/assets/images/mobile/notifications_center.png" height="450">
+
+### Creacion de un snap
+
+Desde acá podemos crear un snap con el texto que queremos, el sistema tiene un limite de caracteres, por lo que no nos permitirá publicarlo si no tiene al menos un caracter o si tiene mas de 140.
+
+Para evitar estos problemas, tenemos un contador que nos dice cuantos caracteres vamos escribiendo, y el color del boton para publicar cambiará cuando se nos permita publicar.
+
+Además, tenemos la opción de seleccionar si queremos que nuestro snap sea privado o publico con la casilla que dice 'Private snap'
+
+<img src="./docs/assets/images/mobile/new_snap.png" height="450">
 
