@@ -27,7 +27,7 @@ permalink: /mobile
     - [Notifications Center](#notifications-center)
     - [Creacion de un snap](#creacion-de-un-snap)
   - [Busqueda](#busqueda)
-    -[Busqueda por texto o hashtag](#busqueda-por-texto-o-hashtag)
+    - [Busqueda por texto o hashtag](#busqueda-por-texto-o-hashtag)
 
 
 ## General
