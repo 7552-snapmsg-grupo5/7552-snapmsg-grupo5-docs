@@ -26,7 +26,8 @@ permalink: /mobile
     - [Favorite Snaps](#favorite-snaps)
     - [Notifications Center](#notifications-center)
     - [Creacion de un snap](#creacion-de-un-snap)
-    
+  - [Busqueda](#busqueda)
+    -[Busqueda por texto o hashtag](#busqueda-por-texto-o-hashtag)
 
 
 ## General
@@ -163,4 +164,27 @@ Para evitar estos problemas, tenemos un contador que nos dice cuantos caracteres
 Además, tenemos la opción de seleccionar si queremos que nuestro snap sea privado o publico con la casilla que dice 'Private snap'
 
 <img src="./docs/assets/images/mobile/new_snap.png" height="450">
+
+## Busqueda
+
+Cuando vamos a la pestaña de busqueda podemos encontrar información de distintas formas. En la parte superior tenemos una barra de busqueda donde podrmeos buscar usuarios o snaps a traves de texto o un hashtag. Cuando se escribe una busqueda suceden simultaneamente varias cosas:
+
+1. Se ofrece al usuario un hashtag que coincide con el texto escrito, para buscar snaps que tengan ese hashtag. En el ejemplo a continuación el usuario busca 'el' y se puede ver la opcion '#el'. Si se presiona esta opción se procederá a la busqueda de snaps por hashtag.
+2. Se muestran todos los usuarios que contengan la busqueda en su nombre de usuario o nombre de perfil. Si se presiona uno de ellos, se dirige al perfil seleccionado.
+3. Si no se encuentran usuarios con la busqueda provista, entonces se hace saber mediante el mensaje 'No users matching: (la busqueda)'
+
+Una vez que el usuario terminó de escribir puede presionar enter en el teclado o la lupita de la barra para buscar snaps por texto o hashtag
+
+Por ultimo, se muestra al final de la vista un carrusel con usuarios recomendados para seguir, con distintos criterios: se tiene en cuenta la cantidad de intereses en común con estos usuarios, y la distancia a la que se encuentran. A estos usuarios se los puede seguir o se puede visitar su perfil.
+
+<img src="./docs/assets/images/mobile/busqueda.png" height="450">
+<img src="./docs/assets/images/mobile/busqueda_sin_resultados.png" height="450">
+
+### Busqueda por texto o hashtag
+
+Cuando el usuario realiza la busqueda, podrá ver los snaps que incluyan el texto elegido, o el hashtag elegido. En los ejemplos, se realiza una busqueda con el texto 'Hola', luego una busqueda con hashtag '#TanBionica' y por ultimo una busqueda que no tiene resultados.
+
+<img src="./docs/assets/images/mobile/busqueda_texto.png" height="450">
+<img src="./docs/assets/images/mobile/busqueda_hashtag.png" height="450">
+<img src="./docs/assets/images/mobile/busqueda_texto_sin_resultados.png" height="450">
 
