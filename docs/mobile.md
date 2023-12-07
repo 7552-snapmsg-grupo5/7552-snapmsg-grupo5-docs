@@ -28,6 +28,8 @@ permalink: /mobile
     - [Creacion de un snap](#creacion-de-un-snap)
   - [Busqueda](#busqueda)
     - [Busqueda por texto o hashtag](#busqueda-por-texto-o-hashtag)
+  - [Lista de mensajes](#lista-de-mensajes)
+    - [Chat](#chat)
 
 
 ## General
@@ -188,3 +190,17 @@ Cuando el usuario realiza la busqueda, podrá ver los snaps que incluyan el text
 <img src="./docs/assets/images/mobile/busqueda_hashtag.png" height="450">
 <img src="./docs/assets/images/mobile/busqueda_texto_sin_resultados.png" height="450">
 
+## Lista de mensajes
+
+En esta pestaña se pueden ver una lista de todos los chats y conversaciones que iniciamos con otros usuarios.
+
+En caso de no tener conversaciones se verá simplemente un mensaje que indica que no tenemos conversaciones, pero en caso de ya haber chateado con otros usuarios, lo veremos listado, con la información del otro usuario, el tiempo desde que se envió el ultimo mensaje y el texto del ultimo mensaje. Y si presionamos en una tarjeta podremos acceder al chat con esa persona para seguir conversando.
+
+<img src="./docs/assets/images/mobile/messages_list_empty.png" height="450">
+<img src="./docs/assets/images/mobile/messages_list.png" height="450">
+
+### Chat
+
+Cuando ingresamos a un chat podemos ver el nombre del usuario con el que estamos conversando, y todos los mensajes que se enviaron entre los usuarios. A la izquierda y con color lila se verán los enviados por el otro usuario, y a la derecha con color gris los enviados por nosotros mismos.
+
+<img src="./docs/assets/images/mobile/chat.png" height="450">
